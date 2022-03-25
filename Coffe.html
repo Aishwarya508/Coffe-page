@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title></title>
+ <style type="text/css">
+ section { padding:20px ; 
+        margin: 20px;
+        border: 1px solid gray;
+        display: flex;
+        width: 100%;
+        
+         }
+    div {  
+        
+        /*background-color: cadetblue;*/
+       
+        
+
+            }
+
+     .card {
+      background-color: cadetblue;
+      text-align: center;
+           /*padding:20px ; */
+        margin: 20px;
+         flex: 1;
+         border: 1px solid gray;
+     }
+
+   img {
+         margin: 50px;
+            }
+
+
+ img:hover { 
+          transition-duration: 2s;
+          transform: scale(1.5);
+            }  
+            
+        h3 
+           { 
+          text-align: center;
+          font-family: cursive;
+          font-size: 30px;
+
+           }
+
+        P { 
+            text-align: center;
+          }
+button { 
+      padding: 5px;
+      background-color: lightcyan;
+      border-radius: 20%;
+      font-family: "Gill Sans", sans-serif;
+      box-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+
+        }
+button:hover { transition-duration: 0.5s;
+            transform: translateX(10px);
+
+        }
+       .bg-image { /* padding: 0px;
+             margin: 0px;*/
+             background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpY0JyJ8r-fFS21nUYRT0oPzzwkeAOjtA_Cg&usqp=CAU");
+             filter: blur(5px);
+              background-repeat:no-repeat;
+              background-size: cover;
+              height: 300px;
+
+             
+              }
+
+         .b{
+          background-image: url("https://foodess.com/wp-content/uploads/2011/12/MTMxNTk1NDA1MTE1Nzk2MDk5.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          filter: blur(5px);
+          height: 300px;
+
+           }     
+          
+          .c {
+           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNASgkWvWLnEdqdktd3shBksKYFqban34PwpDpcm7sEi67DOvDxlhoVMsL7bXFRRDZHeY&usqp=CAU" );
+           background-repeat: no-repeat;
+           background-size: cover;
+           filter: blur(5px);
+           height: 300px;
+           overflow: hidden;
+
+          }
+
+          .card-image-section {
+           position: relative;
+          }
+
+          .over-image {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+          }
+
+          .card-body {
+           padding: 20px;
+          }
+ </style>
+</head>
+<body>
+ <section>
+                        <!----- FOR COFFEE----->
+
+  <div class="card">
+   <div class="card-image-section">
+    <div class="bg-image"></div>
+    <div class="over-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpY0JyJ8r-fFS21nUYRT0oPzzwkeAOjtA_Cg&usqp=CAU" height="200" width="200">
+    </div>
+   </div>
+   <div class="card-body">
+    <h3>COFFEE</h3>
+    <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain flowering plants in the Coffea genus. From the coffee fruit, the seeds are separated to produce a stable, raw product: unroasted green coffee<br>
+
+                        <span style="font-family: Georgia, serif;">. Price only 250RS/- </span></p>
+    <button>ORDER NOW</button>
+   </div>
+  </div>
+
+                       <!------- for i-cream----->
+  <div class="card">
+   <div class="card-image-section" >
+      <div class="b"></div>
+      <div class="over-image">
+        <img src="https://foodess.com/wp-content/uploads/2011/12/MTMxNTk1NDA1MTE1Nzk2MDk5.jpg" height="200" width="200">
+       </div>
+      </div>
+      <div class="card-body">
+   <h3>ICECREAM</h3>
+   <p>Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be made from milk or cream and is flavoured with a sweetener, either sugar or an alternative, and a spice, such as cocoa or vanilla, or with fruit such as strawberries or peaches.<br>
+   <span style="font-family: Georgia, serif;">. Price only 500 RS/- </span></p>
+   <button>OEDER NOW</button>
+  </div>
+  </div>
+
+                        <!--------foody----->
+  <div class="card">
+   <div class="card-image-section">
+    <div class="c"> </div>
+    <div class="over-image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNASgkWvWLnEdqdktd3shBksKYFqban34PwpDpcm7sEi67DOvDxlhoVMsL7bXFRRDZHeY&usqp=CAU" height="200" width="200">
+    </div>  
+   </div>
+    <div class="card-body">
+   <h3>FOODY </h3>
+   <p>if more of us valued food and cheer and song above hoarded gold, it would be a merrier world.<br>
+    <span style="font-family: Georgia, serif;">. P
+    Price only 1000RS/- </span></p>
+    <br>
+   <button>OEDER NOW</button>
+  </div>
+  </div>
+ </section>
+    
+
+</body>
+</html>
